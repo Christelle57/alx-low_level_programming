@@ -3,15 +3,20 @@
 #include <stdio.h>
 
 /**
-*assign a random number to the variable n each time it is executed
-*Return always 0
+* main - prints the size of various types
+* Return: 0 if exited properly, non-zero otherwise
 */
+
 int main(void)
+
 {
 int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+
+scanf("%d", &n);
+
 if (n > 0)
 {
 printf("%d is positive\n", n);
