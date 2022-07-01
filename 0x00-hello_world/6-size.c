@@ -13,6 +13,12 @@ long long int c;
 char d;
 float f;
 
+scanf("%d", &a);
+scanf("%ld", &b);
+scanf("%ld", &c);
+scanf("%f", &f);
+scanf("%c", &d);
+
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
